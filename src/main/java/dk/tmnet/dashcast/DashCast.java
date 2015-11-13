@@ -42,8 +42,8 @@ public class DashCast implements Closeable {
 	 * @param reloadTimeMs
 	 *           optional reload interval. Doesn't work if {@code force} is
 	 *           <code>true</code>
-	 * @return
 	 * @throws IOException
+	 *            if the communication with the ChromeCaste fails
 	 */
 	public void castUrl(URL url, boolean force, Integer reloadTimeMs) throws IOException {
 		Status status = chromeCast.getStatus();

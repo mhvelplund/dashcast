@@ -37,11 +37,11 @@ import com.google.common.collect.Lists;
  * Examples:
  * </p>
  * <p>
- * Load the monitor page on a specific ChromeCast device:<br/>
+ * Load the monitor page on a specific ChromeCast device:<br>
  * <tt>java -jar chromecast.jar.jar http://user:pw@monitor.tmnet.dk/adagios/status/dashboard 192.168.0.224 8009</tt>
  * </p>
  * <p>
- * Force-læoad eb.dk on the first available device:<br/>
+ * Force-load eb.dk on the first available device:<br>
  * <tt>java -jar chromecast.jar.jar -f http://www.eb.dk/</tt>
  * </p>
  */
