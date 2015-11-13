@@ -8,21 +8,13 @@
 			<param name="ConversionPattern" value="[%p] %d %c:%L [%M] - %m%n" />
 		</layout>
 	</appender>
-<!--	
-	<category name="javax.jmdns.impl.DNSIncoming">
-		<level value="error" />
-	</category>
-
-	<category name="su.litvak.chromecast.api.v2.Channel">
-		<level value="error" />
-	</category>
-  
+ 
 	<category name="dk.tmnet.dashcast">
 		<level value="info" />
 	</category>
--->
+
 	<root>
-		<level value="trace" />
+		<level value="warn" />
 		<appender-ref ref="consoleAppender" />
 	</root>
 
