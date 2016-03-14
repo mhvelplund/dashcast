@@ -12,6 +12,10 @@
 	<category name="dk.tmnet.dashcast">
 		<level value="info" />
 	</category>
+	
+	<category name="su.litvak.chromecast">
+		<level value="error" />
+	</category>
 
 	<root>
 		<level value="warn" />
